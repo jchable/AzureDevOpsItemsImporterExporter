@@ -1,0 +1,5 @@
+Id,Type,Title,State,AssignedTo,Description,RemainingWork,Tags,IterationPath,AreaPath
+,Task,Nouvelle tâche créée via script,New,john.doe@company.com,Ceci est une nouvelle tâche créée automatiquement,8,creation;auto,MyProject\Sprint 1,MyProject\Backend
+,Bug,Nouveau bug reporté,New,jane.smith@company.com,Bug détecté lors des tests,4,bug;nouveau,MyProject\Sprint 1,MyProject\Frontend
+0,User Story,Nouvelle user story,New,bob.wilson@company.com,En tant qu'utilisateur je veux...,16,story;nouveau,MyProject\Sprint 2,MyProject\UI
+1001,Epic,Epic existant à modifier,Active,alice.brown@company.com,Modification d'un epic existant,,epic;modifie,MyProject\Release 1,MyProject\Infrastructure

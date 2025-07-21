@@ -1,0 +1,21 @@
+# Fichiers de configuration contenant des tokens
+config.ps1
+*.pat
+.pat
+
+# Fichiers CSV générés
+workitems.csv
+export*.csv
+import*.csv
+*.xlsx
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Configuration VS Code personnelle
+.vscode/settings.json
