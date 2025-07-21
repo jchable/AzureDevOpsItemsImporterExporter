@@ -309,12 +309,6 @@ Interactive configuration script for first use:
 .\Setup.ps1
 ```
 
-### 🧪 TestConnection.ps1
-Diagnostic script to test Azure DevOps connection:
-```powershell
-.\TestConnection.ps1 -Organization "myorg" -Project "myproject" -Token "mytoken"
-```
-
 ### ✅ ValidateExport.ps1
 Validation script to analyze an exported CSV file:
 ```powershell
@@ -329,25 +323,7 @@ Complete guide to using the upsert feature (create + update):
 
 ## Troubleshooting
 
-### Export Issues
-#### 80-Item Limit (Fixed ✅)
-- **Problem Solved**: The script now uses an advanced pagination method.
-- Automatically retrieves ALL work items from the project.
-- Fallback method by ID ranges if necessary.
-
-#### Retrieval Error
-```powershell
-# Test the connection first
-.\TestConnection.ps1 -Organization "myorg" -Project "myproject" -Token "mytoken"
-```
-
 ### Import Issues
-#### CSV Validation Errors
-```
-[ERROR] Line 193: Invalid remaining work: '0,5'. Must be a number.
-```
-- **Solution**: This error is now fixed; commas are accepted.
-- The script automatically converts `0,5` to `0.5`.
 
 #### Recommended Test Mode
 ```powershell
